@@ -1,0 +1,1124 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"et-nav",
+				"et-nav-button"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"borderr",
+				"border-radius"
+			],
+			[
+				"et-",
+				"et-social-media__item"
+			],
+			[
+				"page",
+				"pageContainer"
+			],
+			[
+				"React",
+				"ReactDOM"
+			],
+			[
+				"projec-",
+				"project-item__container"
+			],
+			[
+				"nex",
+				"newIndex"
+			],
+			[
+				"projec",
+				"project-item__close"
+			],
+			[
+				"tex",
+				"text-indent"
+			],
+			[
+				"project",
+				"project-item__description"
+			],
+			[
+				"selec",
+				"selectedIdx"
+			],
+			[
+				"extra",
+				"extraData"
+			],
+			[
+				"render",
+				"renderedProjects"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"box-s",
+				"box-sizing"
+			],
+			[
+				"sele",
+				"selectedIdx"
+			],
+			[
+				"proje",
+				"project-item"
+			],
+			[
+				"psu",
+				"pseudoIndex"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"handl",
+				"handlePageChange"
+			],
+			[
+				"Abou",
+				"ABOUT"
+			],
+			[
+				"home",
+				"HOME"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"backgoun",
+				"background-color"
+			],
+			[
+				"backgroun",
+				"background-slide-in"
+			],
+			[
+				"transition",
+				"transitionAppearTimeout"
+			],
+			[
+				"transiton",
+				"transitionAppear"
+			],
+			[
+				"offse",
+				"offset2"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"get",
+				"getOrientation"
+			],
+			[
+				"Prefab",
+				"PrefabParticles2D"
+			],
+			[
+				"GetCompone",
+				"GetComponentsInChildren"
+			],
+			[
+				"Particle",
+				"ParticleSystem"
+			],
+			[
+				"Motor",
+				"CharacterMotor"
+			],
+			[
+				"return",
+				"returnToCamera"
+			],
+			[
+				"throw",
+				"throwVelocity"
+			],
+			[
+				"Getcompon",
+				"GetComponent\tComponent.*<T>()"
+			],
+			[
+				"eure",
+				"eurecaClient"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"spect",
+				"SpectatorCtrl"
+			],
+			[
+				"selecte",
+				"selectedIndex"
+			],
+			[
+				"data",
+				"dataCreator"
+			],
+			[
+				"a",
+				"AutoInput"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 242.0,
+		"last_filter": "babel",
+		"selected_items":
+		[
+			[
+				"babel",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"syntax unity",
+				"Set Syntax: Unity C#"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax c#",
+				"Set Syntax: C#"
+			],
+			[
+				"format",
+				"CodeFormatter: Format as Javascript Syntax"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"unity",
+				"Set Syntax: Unity C#"
+			],
+			[
+				"htmlpr",
+				"HTMLPrettify"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"jsformat",
+				"JSCS Formatter: Format this file"
+			],
+			[
+				"syntax bab",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax: babl",
+				"Set Syntax: JavaScript (Babel)"
+			]
+		],
+		"width": 440.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Decks/Documents/Git Projects/superperspective-site"
+	],
+	"file_history":
+	[
+		"/C/Users/Decks/Documents/Git Projects/superperspective-site/node_modules/normalize.css/normalize.css",
+		"/C/Users/Decks/Documents/Git Projects/SuperPerspective/SuperPerspective/Assets/Scripts/UI/Saved_UI.cs",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Components/Navigation.js",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Styles/header.css",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Styles/navigation.css",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Styles/navigation-splash.css",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Pages/App.js",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Styles/nav-button-splash.css",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Components/ColorStripe.js",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Components/Header.js",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Styles/four-oh-four.css",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Pages/FourOhFour.js",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Styles/page.css",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Pages/Splash.js",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Styles/color-stripe.css",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Styles/styles.css",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Pages/Page.js",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Styles/splash-page.css",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Styles/project-item.css",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Pages/AboutPage.js",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Styles/about-page.css",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Styles/nav-button.css",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Components/NavButton.js",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Styles/animations.css",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Components/ProjectItem.js",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/public/index.html",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Styles/hamburger-menu.css",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Pages/ProjectList.js",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Pages/ProjectPage.js",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Pages/GamesPage.js",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Components/SocialMedia.js",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Styles/social-media.css",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Components/HamburgerMenu.js",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/index.js",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/README.md",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/build/static/js/main.f7b33917.js",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/build/index.html",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/package.json",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/node_modules/case-sensitive-paths-webpack-plugin/demo/webpack.config.js",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/node_modules/dotenv/config.js",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Styles/react-animations.css",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Styles/project-list.css",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/ProjectsDetails.js",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/constants.js",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Styles/floating-container.css",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Styles/home.css",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Pages/Home.js",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Pages/Projects.js",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/ProjectList.js",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/node_modules/dom-converter/scripts/js/test/saneObjectToDom.js",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Components/FloatingContainer.js",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/elementten-2017-sp.sublime-project",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Components/FloatingButton.js",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Styles/floating-button.css",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/constants.jsx",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Pages/Splash.jsx",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Pages/Home.jsx",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Styles/floating-button-animation.css",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Components/FloatingButton.jsx",
+		"/C/Users/Decks/Downloads/CoalitionTechnologiesTest/styles/section-top.css",
+		"/C/Users/Decks/Downloads/CoalitionTechnologiesTest/styles/forms.css",
+		"/C/Users/Decks/Downloads/CoalitionTechnologiesTest/styles/base.css",
+		"/C/Users/Decks/Downloads/CoalitionTechnologiesTest/styles/reach-us.css",
+		"/C/Users/Decks/Downloads/CoalitionTechnologiesTest/styles/navbar.css",
+		"/C/Users/Decks/Downloads/CoalitionTechnologiesTest/index.html",
+		"/C/Users/Decks/Downloads/CoalitionTechnologiesTest/styles/stylereset.css",
+		"/C/Users/Decks/Downloads/CoalitionTechnologiesTest/styles/header.css",
+		"/C/Users/Decks/Documents/Git Projects/ElementTen/index.html",
+		"/C/Users/Decks/Documents/Git Projects/ElementTen/js/projectObjects.js",
+		"/C/Users/Decks/Documents/Git Projects/ElementTen/js/elementten.js",
+		"/C/Users/Decks/Documents/Git Projects/ElementTen/js/npm.js",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Components/Navigation.jsx",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Pages/Projects.jsx",
+		"/C/Users/Decks/Documents/Git Projects/SuperPerspective/SuperPerspective/Assets/Scripts/Abstract/LevelGeometry.cs",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/node_modules/cssom/lib/StyleSheet.js",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Components/FloatingPlanet.jsx",
+		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Styles/floating-planet.css",
+		"/C/Users/Decks/Documents/Git Projects/AlicenBirthday/Alicen2017.html",
+		"/C/Users/Decks/Documents/Git Projects/AlicenBirthday/styles.css",
+		"/C/Users/Decks/Documents/Git Projects/AlicenBirthday/colorfulbackground.js",
+		"/C/Users/Decks/Documents/Git Projects/SuperPerspective/SuperPerspective/Assets/Scripts/Objects/Giant Crystal/CrystalExplosionTrigger.cs",
+		"/C/Users/Decks/Documents/Git Projects/SuperPerspective/SuperPerspective/Assets/Scripts/General/DevConsoleController.cs",
+		"/C/Users/Decks/Documents/Git Projects/SuperPerspective/SuperPerspective/Assets/Scripts/Abstract/ActiveInteractable.cs",
+		"/C/Users/Decks/Documents/Git Projects/SuperPerspective/SuperPerspective/Assets/Scripts/Objects/Door.cs",
+		"/C/Users/Decks/Documents/Git Projects/SuperPerspective/SuperPerspective/Assets/Scripts/General/AdviceGiver.cs",
+		"/C/Users/Decks/Documents/Git Projects/SuperPerspective/SuperPerspective/Assets/Scripts/General/ConsoleActionsManager.cs",
+		"/C/Users/Decks/Documents/Git Projects/SuperPerspective/SuperPerspective/Assets/Scripts/Camera/CameraController.cs",
+		"/C/Users/Decks/Documents/Git Projects/SuperPerspective/SuperPerspective/Assets/Scripts/GameManager/Edge Scripts/Edge.cs",
+		"/C/Users/Decks/Documents/Git Projects/SuperPerspective/SuperPerspective/Assets/Scripts/Environment/AmbientParticleHandler.cs",
+		"/C/Users/Decks/Documents/Git Projects/SuperPerspective/SuperPerspective/Assets/Scripts/GameManager/Edge Scripts/EdgeManager.cs",
+		"/C/Users/Decks/Documents/Git Projects/SuperPerspective/SuperPerspective/Assets/Scripts/GameManager/SaveManager.cs",
+		"/C/Users/Decks/Documents/Git Projects/SuperPerspective/SuperPerspective/Assets/Scripts/UI/Bonfire_UI.cs",
+		"/C/Users/Decks/Documents/Git Projects/SuperPerspective/SuperPerspective/Assets/Scripts/Abstract/BoundObject.cs",
+		"/C/Users/Decks/Documents/Git Projects/SuperPerspective/SuperPerspective/Assets/Scripts/GameManager/GameStateManager.cs",
+		"/C/Users/Decks/Documents/Git Projects/SuperPerspective/SuperPerspective/Assets/Prefabs/Interactive Objects/Ice.prefab.meta",
+		"/C/Users/Decks/Documents/Git Projects/SuperPerspective/SuperPerspective/Assets/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs",
+		"/C/Users/Decks/Documents/Git Projects/SuperPerspective/SuperPerspective/Assets/Standard Assets/Effects/ImageEffects/Shaders/ConvertDepth.shader",
+		"/C/Users/Decks/Documents/Git Projects/SuperPerspective/SuperPerspective/Assets/Shaders/ShowDepth.shader",
+		"/C/Users/Decks/Documents/Git Projects/SuperPerspective/SuperPerspective/Assets/Shaders/OverDraw.shader",
+		"/C/Users/Decks/Documents/Git Projects/SuperPerspective/SuperPerspective/Assets/Prefabs/CreditsScene/Ice.prefab.meta",
+		"/C/Users/Decks/Documents/Git Projects/SuperPerspective/SuperPerspective/Assets/Prefabs/Background Objects/Generators.meta",
+		"/C/Users/Decks/Documents/Git Projects/SuperPerspective/.gitignore",
+		"/C/Users/Decks/Documents/Git Projects/SuperPerspective/SuperPerspective/SuperPerspective/Assets/Scripts/Player/PlayerController.cs",
+		"/C/Users/Decks/Documents/Git Projects/Shang/Assets/Scripts/Player/PlayerController.cs",
+		"/C/Users/Decks/Documents/Git Projects/Shang/Assets/Scripts/GridWindow.cs",
+		"/C/Users/Decks/Documents/Git Projects/Shang/Assets/Scripts/Util/CircularCalculator.cs",
+		"/C/Users/Decks/Documents/Git Projects/Shang/Assets/Scripts/CircularCalculator.cs",
+		"/C/Users/Decks/Documents/Git Projects/Shang/Assets/InputManager/Examples/Common/Packages/FirstPersonController/Sources/Scripts/CharacterMotor.cs",
+		"/C/Users/Decks/Documents/Git Projects/Shang/Assets/InputManager/Examples/Common/Packages/FirstPersonController/Sources/Scripts/FPSInputController.cs",
+		"/C/Program Files/Unity/Editor/Data/Documentation/en/Manual/class-CharacterController.html",
+		"/C/Users/Decks/Documents/Git Projects/Shang/Assets/InputManager/Addons/UIInputModules/Runtime/StandaloneInputModule.cs",
+		"/C/Users/Decks/Documents/Git Projects/Shang/Assets/InputManager/Source/Runtime/InputManager_Unity.cs",
+		"/C/Users/Decks/Documents/Git Projects/Shang/Assets/InputManager/Source/Runtime/InputManager.cs",
+		"/C/Users/Decks/Documents/Git Projects/Shang/Assets/InputManager/Examples/01 - Controls Menu/Scripts/LoadInputsOnStart.cs",
+		"/C/Users/Decks/Documents/Git Projects/DaringSeafaring/Assets/Scripts/Util/ZLayer.cs",
+		"/C/Users/Decks/Documents/Git Projects/UnityDoodles/Ball Physics/Assets/Scripts/DragObject.cs",
+		"/C/Users/Decks/Documents/Git Projects/UnityDoodles/Ball Physics/Assets/Scripts/SimpleDragObject.cs",
+		"/C/Users/Decks/Documents/Git Projects/UnityDoodles/Ball Physics/Assets/DragObject.cs",
+		"/C/Users/Decks/Documents/Git Projects/UnityDoodles/Ball Physics/.gitignore",
+		"/C/Users/Decks/Documents/Git Projects/UnityDoodles/UnityDoodles.sublime-project",
+		"/C/Users/Decks/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Decks/AppData/Local/Temp/Rar$DIa0.404/README.txt",
+		"/C/Users/Decks/Documents/Git Projects/SuperPerspective/SuperPerspective/Assets/Scripts/Objects/heart-and-soul",
+		"/C/Users/Decks/Documents/Git Projects/SuperPerspective/SuperPerspective/Assets/Scripts/Objects/MobilePlatform.cs",
+		"/C/Users/Decks/Documents/Git Projects/superperspective-web/src/client/index.html",
+		"/C/Users/Decks/Documents/Git Projects/superperspective-web/webpack.config.js",
+		"/C/Users/Decks/Documents/Git Projects/superperspective-web/package.json",
+		"/C/Users/Decks/Documents/Git Projects/superperspective-web/src/client/app/index.html"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 127.0,
+		"where_history":
+		[
+			"-*/node_modules/*, -*/build/*",
+			"-*/node_modules/*,",
+			"",
+			"-*/node_modules/*,",
+			"*/node_modules/*,",
+			"-*/node_modules/*,"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"console.l",
+			".et-navigation__menu.mod-vertical-nav",
+			"padding",
+			"\"",
+			"isSplashPage",
+			"ColorStripe",
+			"title",
+			"AboutPage",
+			"cx",
+			"0",
+			"content-container",
+			"cx",
+			"25px",
+			"border",
+			"translate",
+			":not(.mod-splash-nav)",
+			"mod-splash",
+			".mod-vertical",
+			"15px",
+			"-15px",
+			"!vertical",
+			"vertical",
+			"#262833",
+			"15px",
+			":hover",
+			"500ms",
+			"span",
+			"boxy",
+			"vertical",
+			"2rem",
+			"boxy",
+			"et-navigation-container",
+			"vertical",
+			"hamburger",
+			"200px",
+			"5px",
+			"border-color: white",
+			"#5073ad",
+			"background",
+			"1px",
+			"font",
+			"content",
+			"min-width",
+			"100%",
+			"offset",
+			"scrollTop",
+			"handlePageChange",
+			"hover",
+			"et-navigation-container",
+			"et-navigation",
+			"+ .et-navigation",
+			"1f3963",
+			"E5DE31",
+			"E5D549",
+			"F2C559",
+			"8D73A6",
+			"ffd500",
+			"D9B389",
+			"A67E8D",
+			"ffd810",
+			"8AF260",
+			"D5F293",
+			"29D9C2",
+			"BDF271",
+			"29D9C2",
+			"01A2A6",
+			"2F2933",
+			"2b9a3f",
+			" 29D9C2",
+			"db7ee4",
+			"orange",
+			"2b9a3f",
+			"Page",
+			"content-container",
+			".mod-large",
+			"flex: 0 0",
+			"extra",
+			": auto",
+			"project-item__container",
+			"container",
+			"et-page",
+			".et-page__title",
+			"margin: auto",
+			"et-effect",
+			"50%",
+			"et-effect-container",
+			"et-page__title",
+			"border-color",
+			"et-about__container",
+			"300px",
+			"200px",
+			"100%",
+			"300px",
+			"filer",
+			"bg-blur-mask",
+			"__dirname",
+			"Path",
+			"path",
+			"list-container",
+			"`",
+			".project-item.mod-active",
+			"description",
+			"0",
+			"handleIndexChange",
+			"project-item__close",
+			"onIdxChange",
+			"Page",
+			"PAGE",
+			"page",
+			"PAGE",
+			"active",
+			"hover",
+			"before",
+			"tran",
+			".mod-active",
+			"active",
+			"margin",
+			"70",
+			"hover",
+			"100",
+			"0",
+			"10",
+			"100",
+			"95",
+			".et-effect-container",
+			"projects-background-color",
+			"border",
+			"100"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"et-navigation",
+			"262833",
+			"e2be51",
+			"E5DE31",
+			"E5D549",
+			"A262A6",
+			"F2C559",
+			"D98C77",
+			"8D73A6",
+			"ffd500",
+			"ffd810",
+			"8AF260",
+			"D9B389",
+			"D5F293",
+			"29D9C2",
+			"A67E8D",
+			"262833",
+			"01A2A6",
+			" #29D9C2",
+			"BDF271",
+			"29D9C2",
+			"01A2A6",
+			"et-about__content-container",
+			"et-nav-button",
+			"et-navigation",
+			"mod-extra-item",
+			"(min-width : 0)",
+			"(min-width : 320px)",
+			"static defaultProps = {"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "superperspective-site-project.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"aboutpage.js",
+				"src\\Pages\\AboutPage.js"
+			],
+			[
+				"app.js",
+				"src\\Pages\\App.js"
+			],
+			[
+				"navbutton.css",
+				"src\\Styles\\nav-button-splash.css"
+			],
+			[
+				"navgiat",
+				"src\\Components\\Navigation.js"
+			],
+			[
+				"header.css",
+				"src\\Styles\\header.css"
+			],
+			[
+				"navigation-spl",
+				"src\\Styles\\navigation-splash.css"
+			],
+			[
+				"navigation.css",
+				"src\\Styles\\navigation.css"
+			],
+			[
+				"header.js",
+				"src\\Components\\Header.js"
+			],
+			[
+				"header.cs",
+				"src\\Styles\\header.css"
+			],
+			[
+				"splash.js",
+				"src\\Pages\\Splash.js"
+			],
+			[
+				"colorstripe.",
+				"src\\Styles\\color-stripe.css"
+			],
+			[
+				"styles.css",
+				"src\\Styles\\styles.css"
+			],
+			[
+				"colorstripe",
+				"src\\Components\\ColorStripe.js"
+			],
+			[
+				"navigation.js",
+				"src\\Components\\Navigation.js"
+			],
+			[
+				"navigationsplash.",
+				"src\\Styles\\navigation-splash.css"
+			],
+			[
+				"splashpage.",
+				"src\\Styles\\splash-page.css"
+			],
+			[
+				"projectitem.css",
+				"src\\Styles\\project-item.css"
+			],
+			[
+				"page.css",
+				"src\\Styles\\page.css"
+			],
+			[
+				"projectie",
+				"src\\Components\\ProjectItem.js"
+			],
+			[
+				"navbutton.js",
+				"src\\Components\\NavButton.js"
+			],
+			[
+				"splash.s",
+				"src\\Pages\\Splash.js"
+			],
+			[
+				"aboutpage.css",
+				"src\\Styles\\about-page.css"
+			],
+			[
+				"socialmedia.css",
+				"src\\Styles\\social-media.css"
+			],
+			[
+				"socialm",
+				"src\\Components\\SocialMedia.js"
+			],
+			[
+				"nav-button",
+				"src\\Styles\\nav-button.css"
+			],
+			[
+				"page.js",
+				"src\\Pages\\Page.js"
+			],
+			[
+				"projectlist.js",
+				"src\\Pages\\ProjectList.js"
+			],
+			[
+				"projectitem.j",
+				"src\\Components\\ProjectItem.js"
+			],
+			[
+				"navgation.js",
+				"src\\Components\\Navigation.js"
+			],
+			[
+				"navgation.css",
+				"src\\Styles\\navigation.css"
+			],
+			[
+				"hamburg",
+				"src\\Styles\\hamburger-menu.css"
+			],
+			[
+				"hamburgermen",
+				"src\\Components\\HamburgerMenu.js"
+			],
+			[
+				"about-page",
+				"src\\Styles\\about-page.css"
+			],
+			[
+				"header.scs",
+				"src\\Styles\\header.css"
+			],
+			[
+				"project-item.cs",
+				"src\\Styles\\project-item.css"
+			],
+			[
+				"config.js",
+				"node_modules\\dotenv\\config.js"
+			],
+			[
+				"webpack",
+				"node_modules\\case-sensitive-paths-webpack-plugin\\demo\\webpack.config.js"
+			],
+			[
+				"projectitem.js",
+				"src\\Components\\ProjectItem.js"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"webpackconfig.js",
+				"node_modules\\case-sensitive-paths-webpack-plugin\\demo\\webpack.config.js"
+			],
+			[
+				"projec",
+				"src\\Components\\ProjectItem.js"
+			],
+			[
+				"projectpage",
+				"src\\Pages\\ProjectPage.js"
+			],
+			[
+				"projectitem",
+				"src\\Components\\ProjectItem.js"
+			],
+			[
+				"project-item",
+				"src\\Styles\\project-item.css"
+			],
+			[
+				"splash.css",
+				"src\\Styles\\splash-page.css"
+			],
+			[
+				"navbutton",
+				"src\\Components\\NavButton.js"
+			],
+			[
+				"app",
+				"src\\Pages\\App.js"
+			],
+			[
+				"navigation",
+				"src\\Styles\\navigation.css"
+			],
+			[
+				"con",
+				"src\\constants.js"
+			],
+			[
+				"home.js",
+				"src\\Pages\\Home.js"
+			],
+			[
+				"projecittem.js",
+				"src\\Components\\ProjectItem.js"
+			],
+			[
+				"project-list",
+				"src\\Styles\\project-list.css"
+			],
+			[
+				"projects.css",
+				"src\\Styles\\project-list.css"
+			],
+			[
+				"projectitem.jsx",
+				"src\\Components\\ProjectItem.jsx"
+			],
+			[
+				"projects.jsx",
+				"src\\Pages\\Projects.jsx"
+			],
+			[
+				"home.css",
+				"src\\Styles\\home.css"
+			],
+			[
+				"styles",
+				"node_modules\\cssom\\lib\\StyleSheet.js"
+			],
+			[
+				"floatinbutton.jsx",
+				"src\\Components\\FloatingButton.jsx"
+			],
+			[
+				"floatingplanet",
+				"src\\Components\\FloatingPlanet.jsx"
+			],
+			[
+				"consol",
+				"Assets\\Scripts\\General\\ConsoleActionsManager.cs"
+			],
+			[
+				"savedui",
+				"Assets\\Scripts\\UI\\Saved_UI.cs"
+			],
+			[
+				"activeinter",
+				"Assets\\Scripts\\Abstract\\ActiveInteractable.cs"
+			],
+			[
+				"door.cs",
+				"Assets\\Scripts\\Objects\\Door.cs"
+			],
+			[
+				"console",
+				"Assets\\Scripts\\General\\DevConsoleController.cs"
+			],
+			[
+				"advicerg",
+				"Assets\\Scripts\\General\\AdviceGiver.cs"
+			],
+			[
+				"crystalexplosion",
+				"Assets\\Scripts\\Objects\\Giant Crystal\\CrystalExplosionTrigger.cs"
+			],
+			[
+				"consoleaction",
+				"Assets\\Scripts\\General\\ConsoleActionsManager.cs"
+			],
+			[
+				"activein",
+				"Assets\\Scripts\\Abstract\\ActiveInteractable.cs"
+			],
+			[
+				"door",
+				"Assets\\Scripts\\Objects\\Door.cs"
+			],
+			[
+				"gamestatemanager",
+				"Assets\\Scripts\\GameManager\\GameStateManager.cs"
+			],
+			[
+				"ice.prefab.meta",
+				"Assets\\Prefabs\\Interactive Objects\\Ice.prefab.meta"
+			],
+			[
+				"iceprefab.meta",
+				"Assets\\Prefabs\\CreditsScene\\Ice.prefab.meta"
+			],
+			[
+				"maincoll",
+				"Assets\\Scripts\\Objects\\MainCollectable.cs"
+			],
+			[
+				"generators.meta",
+				"Assets\\Prefabs\\Background Objects\\Generators.meta"
+			],
+			[
+				"charactermotor",
+				"Assets\\InputManager\\Examples\\Common\\Packages\\FirstPersonController\\Sources\\Scripts\\CharacterMotor.cs"
+			],
+			[
+				"mobileplatforms",
+				"Assets\\Scripts\\Objects\\MobilePlatformSpawn.cs"
+			],
+			[
+				"platform.cs",
+				"Assets\\Scripts\\Objects\\MobilePlatform.cs"
+			],
+			[
+				"orb.cs",
+				"Assets\\Scripts\\Objects\\Orb.cs"
+			],
+			[
+				"platform",
+				"Assets\\Scripts\\Objects\\PlatformWobble.cs"
+			],
+			[
+				"orbdrop",
+				"Assets\\Scripts\\Objects\\OrbDropPedestal.cs"
+			],
+			[
+				"edgemanager",
+				"Assets\\Scripts\\GameManager\\Edge Scripts\\EdgeManager.cs"
+			],
+			[
+				"islandcontro",
+				"Assets\\Scripts\\GameManager\\IslandControl.cs"
+			],
+			[
+				"levelgeom",
+				"Assets\\Scripts\\Abstract\\LevelGeometry.cs"
+			],
+			[
+				"mobilep",
+				"Assets\\Scripts\\Objects\\MobilePlatform.cs"
+			],
+			[
+				"playercontrol",
+				"Assets\\Scripts\\Player\\PlayerController.cs"
+			],
+			[
+				"playerspawnc",
+				"Assets\\Scripts\\Player\\PlayerSpawnController.cs"
+			],
+			[
+				"spectator",
+				"www\\js\\tnt-spectator.js"
+			],
+			[
+				"tntplayer",
+				"www\\js\\tnt-player.js"
+			],
+			[
+				".js",
+				"server.js"
+			],
+			[
+				"gitignore",
+				".gitignore"
+			],
+			[
+				"dataservice",
+				"source\\scripts\\DataService.js"
+			],
+			[
+				"main.less",
+				"source\\styles\\main.less"
+			],
+			[
+				"autoinpu",
+				"source\\scripts\\AutoInput.jsx"
+			],
+			[
+				"readme",
+				"README.md"
+			],
+			[
+				"index.jsx",
+				"source\\Index.jsx"
+			],
+			[
+				"main.js",
+				"source\\main.js"
+			],
+			[
+				"index.html",
+				"devserver_files\\index.html"
+			],
+			[
+				"exmaple",
+				"source\\scripts\\example.js"
+			],
+			[
+				"example",
+				"source\\scripts\\example.js"
+			],
+			[
+				"password",
+				"node_modules\\faker\\vendor\\password-generator.js"
+			],
+			[
+				"fakedata",
+				"source\\scripts\\data\\fakeData.js"
+			],
+			[
+				".less",
+				"source\\styles\\main.less"
+			],
+			[
+				"example.js",
+				"source\\scripts\\example.js"
+			],
+			[
+				"main",
+				"source\\main.js"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"autocomplete",
+				"source\\scripts\\AutocompleteInput.jsx"
+			],
+			[
+				"index",
+				"devserver_files\\index.html"
+			],
+			[
+				"readme.",
+				"README.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 348.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

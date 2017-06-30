@@ -1,0 +1,13 @@
+.sp-splash {
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  background-color: lightblue;
+  border: 20px solid white; }
+
+.sp-splash--logo {
+  font-size: 3rem;
+  font-family: "Raleway";
+  font-weight: bold;
+  color: #e2b969;
+  text-align: center; }
