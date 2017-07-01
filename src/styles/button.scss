@@ -1,0 +1,20 @@
+@import './shared.scss';
+
+.sp-button {
+	border: 2px solid $sp-color;
+	background: white;
+
+	padding: 1rem;
+
+	color: $sp-color;
+	font-size: 1.5rem;
+	font-family: "Arimo";
+
+	transition: transform 300ms, box-shadow 300ms;
+	transform: translateY(0px);
+
+	&:hover {
+		box-shadow: 0 5px $sp-color;
+		transform: translateY(-5px);
+	}
+}
