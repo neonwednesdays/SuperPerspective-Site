@@ -2,38 +2,16 @@
   width: 100%;
   height: 100%;
   position: absolute; }
-  .sp-mask-logo .sp-mask-logo--container {
-    fill: white;
-    -webkit-mask: url(#mask);
-    mask: url(#mask); }
-  .sp-mask-logo .sp-mask-logo--bg {
-    fill: white; }
-  .sp-mask-logo .sp-mask-logo--text {
-    text-anchor: middle;
-    font-family: "Raleway";
-    font-weight: bold;
-    /* phone */
-    /* tablet */
-    /* desktop */ }
-    @media screen and (min-width: 0) and (max-width: 760px) {
-      .sp-mask-logo .sp-mask-logo--text {
-        font-size: 15vw; } }
-    @media screen and (min-width: 760px) and (max-width: 1220px) {
-      .sp-mask-logo .sp-mask-logo--text {
-        font-size: 15vw; } }
-    @media screen and (min-width: 1220px) {
-      .sp-mask-logo .sp-mask-logo--text {
-        font-size: 200px; } }
 
-.sp-mask-logo--video {
+.sp-mask-video {
   position: absolute;
-  top: 50%;
   left: 0%;
+  top: 50%;
   transform: translateY(-50%);
   width: 100%;
   height: auto;
   overflow: hidden;
-  mask-image: url("../../media/hoodie-silhoutte.png");
+  mask-image: url("../../media/sp-perspective-transparent-vertical.png");
   mask-repeat: no-repeat;
   mask-position: 50% 50%;
-  mask-size: contain; }
+  mask-size: 130vw; }

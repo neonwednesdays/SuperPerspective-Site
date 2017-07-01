@@ -6,7 +6,7 @@
 	box-sizing: border-box;
 
 	background-color: transparent;
-	border: 20px solid white;
+	border: 20px solid #cde8d7;
 
 	position: relative;
 	overflow: hidden;
@@ -14,16 +14,41 @@
 	.sp-mask-logo {
 		z-index: 3;
 	}
-	.sp-mask-logo--video {
+	.sp-mask-video {
 		z-index: 2;
 	}
 }
 
-.sp-splash--logo {
-	font-size: 3rem;
-	font-family: "Raleway";
-	font-weight: bold;
+.sp-splash--logo-text {
 	color: white;
+	text-anchor: middle;
+    font-family: "Raleway";
 
-	text-align: center;
+    text-align: center;
+    position: absolute;
+
+	z-index: 4;
+
+    /* phone */
+	@media screen and (min-width : 0) and (max-width : 760px) {
+	    font-size: 10vw;
+	}
+	/* tablet */
+	@media screen and (min-width : 760px) and (max-width : 1220px) {
+	    font-size: 10vw;
+	}
+	/* desktop */
+	@media screen and (min-width : 1220px) {
+	    font-size: 120px;
+	}
+}
+.sp-splash--logo-text.top {
+	left: 0;
+    right: 0;
+    top: 40px;
+}
+.sp-splash--logo-text.bottom {
+	left: 0;
+    right: 0;
+    bottom: 40px;
 }

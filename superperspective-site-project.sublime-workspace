@@ -184,30 +184,66 @@
 	"buffers":
 	[
 		{
-			"file": "src/styles/splash.scss",
-			"settings":
-			{
-				"buffer_size": 319,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
+			"contents": "import React, { Component } from 'react';\n\nimport '../styles/css/splash.css';\nimport '../styles/css/mask-logo.css';\n\nexport default class App extends Component {\n\tstatic defaultProps = {\n\t\twidth: \"100%\",\n\t\theight: \"100%\",\n\t};\n\n\trender() {\n\t\tconst { width, height } = this.props;\n\n\t\treturn (\n\t\t\t<div className=\"sp-splash\">\n\t\t\t\t<div className=\"sp-splash--logo\"></div>\n\t\t\t\t\n\t\t\t\t<video className=\"sp-mask-video\" id=\"video\" autoPlay=\"autoplay\" muted=\"muted\" preload=\"auto\" loop=\"loop\">\n    \t\t\t\t<source\n    \t\t\t\t\tsrc=\"http://www.elementten.com/media/sp-video-demo.mp4\"\n    \t\t\t\t\ttype=\"video/mp4\"\n\t\t\t\t\t/>\n    \t\t\t</video>\n\t\t\t</div>\n\t\t);\n\t}\n}",
 			"file": "src/pages/Splash.js",
+			"file_size": 619,
+			"file_write_time": 131433965117428201,
 			"settings":
 			{
-				"buffer_size": 1241,
+				"buffer_size": 631,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/styles/mask-logo.scss",
+			"contents": "Searching 19 files for \"sp-mask-logo--video\"\n\nC:\\Users\\Decks\\Documents\\Git Projects\\superperspective-site\\src\\pages\\Splash.js:\n   17  \t\t\t\t<div className=\"sp-splash--logo\"></div>\n   18  \t\t\t\t\n   19: \t\t\t\t<video className=\"sp-mask-logo--video\" id=\"video\" autoPlay=\"autoplay\" muted=\"muted\" preload=\"auto\" loop=\"loop\">\n   20      \t\t\t\t<source\n   21      \t\t\t\t\tsrc=\"http://www.elementten.com/media/sp-video-demo.mp4\"\n\nC:\\Users\\Decks\\Documents\\Git Projects\\superperspective-site\\src\\styles\\mask-logo.scss:\n   32  \n   33  }\n   34: .sp-mask-logo--video {\n   35  \tposition: absolute;\n   36  \ttop: 50%;\n\nC:\\Users\\Decks\\Documents\\Git Projects\\superperspective-site\\src\\styles\\splash.scss:\n   15  \t\tz-index: 3;\n   16  \t}\n   17: \t.sp-mask-logo--video {\n   18  \t\tz-index: 2;\n   19  \t}\n\nC:\\Users\\Decks\\Documents\\Git Projects\\superperspective-site\\src\\styles\\css\\mask-logo.css:\n   26          font-size: 200px; } }\n   27  \n   28: .sp-mask-logo--video {\n   29    position: absolute;\n   30    top: 50%;\n\nC:\\Users\\Decks\\Documents\\Git Projects\\superperspective-site\\src\\styles\\css\\splash.css:\n    9    .sp-splash .sp-mask-logo {\n   10      z-index: 3; }\n   11:   .sp-splash .sp-mask-logo--video {\n   12      z-index: 2; }\n   13  \n\n5 matches across 5 files\n\n\nSearching 19 files for \"sp-mask-logo--video\"\n\nC:\\Users\\Decks\\Documents\\Git Projects\\superperspective-site\\src\\styles\\css\\mask-logo.css:\n   26          font-size: 200px; } }\n   27  \n   28: .sp-mask-logo--video {\n   29    position: absolute;\n   30    top: 50%;\n\nC:\\Users\\Decks\\Documents\\Git Projects\\superperspective-site\\src\\styles\\css\\splash.css:\n    9    .sp-splash .sp-mask-logo {\n   10      z-index: 3; }\n   11:   .sp-splash .sp-mask-logo--video {\n   12      z-index: 2; }\n   13  \n\n2 matches across 2 files\n\n\nSearching 19 files for \"sp-mask-logo--video\"\n\nC:\\Users\\Decks\\Documents\\Git Projects\\superperspective-site\\src\\styles\\css\\mask-logo.css:\n   26          font-size: 200px; } }\n   27  \n   28: .sp-mask-logo--video {\n   29    position: absolute;\n   30    top: 50%;\n\nC:\\Users\\Decks\\Documents\\Git Projects\\superperspective-site\\src\\styles\\css\\splash.css:\n    9    .sp-splash .sp-mask-logo {\n   10      z-index: 3; }\n   11:   .sp-splash .sp-mask-logo--video {\n   12      z-index: 2; }\n   13  \n\n2 matches across 2 files\n\n\nSearching 19 files for \"sp-mask-logo--video\"\n\nC:\\Users\\Decks\\Documents\\Git Projects\\superperspective-site\\src\\styles\\css\\mask-logo.css:\n   26          font-size: 200px; } }\n   27  \n   28: .sp-mask-logo--video {\n   29    position: absolute;\n   30    top: 50%;\n\nC:\\Users\\Decks\\Documents\\Git Projects\\superperspective-site\\src\\styles\\css\\splash.css:\n    9    .sp-splash .sp-mask-logo {\n   10      z-index: 3; }\n   11:   .sp-splash .sp-mask-logo--video {\n   12      z-index: 2; }\n   13  \n\n2 matches across 2 files\n\n\nSearching 19 files for \"sp-mask-logo--video\"\n\nC:\\Users\\Decks\\Documents\\Git Projects\\superperspective-site\\src\\styles\\css\\mask-logo.css:\n   26          font-size: 200px; } }\n   27  \n   28: .sp-mask-logo--video {\n   29    position: absolute;\n   30    top: 50%;\n\nC:\\Users\\Decks\\Documents\\Git Projects\\superperspective-site\\src\\styles\\css\\splash.css:\n    9    .sp-splash .sp-mask-logo {\n   10      z-index: 3; }\n   11:   .sp-splash .sp-mask-logo--video {\n   12      z-index: 2; }\n   13  \n\n2 matches across 2 files\n\n\nSearching 19 files for \"sp-mask-logo--video\"\n\nC:\\Users\\Decks\\Documents\\Git Projects\\superperspective-site\\src\\styles\\css\\mask-logo.css:\n   26          font-size: 200px; } }\n   27  \n   28: .sp-mask-logo--video {\n   29    position: absolute;\n   30    top: 50%;\n\nC:\\Users\\Decks\\Documents\\Git Projects\\superperspective-site\\src\\styles\\css\\splash.css:\n    9    .sp-splash .sp-mask-logo {\n   10      z-index: 3; }\n   11:   .sp-splash .sp-mask-logo--video {\n   12      z-index: 2; }\n   13  \n\n2 matches across 2 files\n\n\nSearching 19 files for \"sp-mask-logo--video\"\n\nC:\\Users\\Decks\\Documents\\Git Projects\\superperspective-site\\src\\styles\\css\\mask-logo.css:\n   26          font-size: 200px; } }\n   27  \n   28: .sp-mask-logo--video {\n   29    position: absolute;\n   30    top: 50%;\n\nC:\\Users\\Decks\\Documents\\Git Projects\\superperspective-site\\src\\styles\\css\\splash.css:\n    9    .sp-splash .sp-mask-logo {\n   10      z-index: 3; }\n   11:   .sp-splash .sp-mask-logo--video {\n   12      z-index: 2; }\n   13  \n\n2 matches across 2 files\n\n\nSearching 19 files for \"sp-mask-logo--video\"\n\nC:\\Users\\Decks\\Documents\\Git Projects\\superperspective-site\\src\\styles\\css\\mask-logo.css:\n   26          font-size: 200px; } }\n   27  \n   28: .sp-mask-logo--video {\n   29    position: absolute;\n   30    top: 50%;\n\nC:\\Users\\Decks\\Documents\\Git Projects\\superperspective-site\\src\\styles\\css\\splash.css:\n    9    .sp-splash .sp-mask-logo {\n   10      z-index: 3; }\n   11:   .sp-splash .sp-mask-logo--video {\n   12      z-index: 2; }\n   13  \n\n2 matches across 2 files\n\n\nSearching 19 files for \"sp-mask-logo--video\"\n\nC:\\Users\\Decks\\Documents\\Git Projects\\superperspective-site\\src\\styles\\css\\mask-logo.css:\n   26          font-size: 200px; } }\n   27  \n   28: .sp-mask-logo--video {\n   29    position: absolute;\n   30    top: 50%;\n\nC:\\Users\\Decks\\Documents\\Git Projects\\superperspective-site\\src\\styles\\css\\splash.css:\n    9    .sp-splash .sp-mask-logo {\n   10      z-index: 3; }\n   11:   .sp-splash .sp-mask-logo--video {\n   12      z-index: 2; }\n   13  \n\n2 matches across 2 files\n\n\nSearching 19 files for \"sp-mask-logo--video\"\n\nC:\\Users\\Decks\\Documents\\Git Projects\\superperspective-site\\src\\styles\\css\\mask-logo.css:\n   26          font-size: 200px; } }\n   27  \n   28: .sp-mask-logo--video {\n   29    position: absolute;\n   30    top: 50%;\n\nC:\\Users\\Decks\\Documents\\Git Projects\\superperspective-site\\src\\styles\\css\\splash.css:\n    9    .sp-splash .sp-mask-logo {\n   10      z-index: 3; }\n   11:   .sp-splash .sp-mask-logo--video {\n   12      z-index: 2; }\n   13  \n\n2 matches across 2 files\n\n\nSearching 19 files for \"sp-mask-logo--video\"\n\nC:\\Users\\Decks\\Documents\\Git Projects\\superperspective-site\\src\\styles\\css\\mask-logo.css:\n   26          font-size: 200px; } }\n   27  \n   28: .sp-mask-logo--video {\n   29    position: absolute;\n   30    top: 50%;\n\nC:\\Users\\Decks\\Documents\\Git Projects\\superperspective-site\\src\\styles\\css\\splash.css:\n    9    .sp-splash .sp-mask-logo {\n   10      z-index: 3; }\n   11:   .sp-splash .sp-mask-logo--video {\n   12      z-index: 2; }\n   13  \n\n2 matches across 2 files\n",
 			"settings":
 			{
-				"buffer_size": 765,
+				"buffer_size": 6352,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "superperspective-site-project.sublime-project",
+			"settings":
+			{
+				"buffer_size": 106,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "@import './shared.scss';\n\n.sp-splash {\n\theight: 100vh;\n\twidth: 100vw;\n\tbox-sizing: border-box;\n\n\tbackground-color: transparent;\n\tborder: 20px solid white;\n\n\tposition: relative;\n\toverflow: hidden;\n\n\t.sp-mask-logo {\n\t\tz-index: 3;\n\t}\n\t.sp-mask-video {\n\t\tz-index: 2;\n\t}\n}\n\n.sp-splash--logo {\n\tfont-size: 3rem;\n\tfont-family: \"Raleway\";\n\tfont-weight: bold;\n\tcolor: white;\n\n\ttext-align: center;\n}",
+			"file": "src/styles/splash.scss",
+			"file_size": 423,
+			"file_write_time": 131433960817621429,
+			"settings":
+			{
+				"buffer_size": 389,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": ".sp-mask-logo {\n\twidth: 100%;\n    height: 100%;\n    position:absolute;\n\n\t.sp-mask-logo--container {\n\t\tfill: white;\n\t    -webkit-mask: url(#mask);\n\t    mask: url(#mask);\n\t}\n\t.sp-mask-logo--bg {\n\t\tfill: rgba(255, 255, 255, 1);\n\t}\n\t.sp-mask-logo--text {\n\t\ttext-anchor: middle;\n\t    font-family: \"Raleway\";\n\t    font-weight: bold;\n\n\t    /* phone */\n\t\t@media screen and (min-width : 0) and (max-width : 760px) {\n\t\t    font-size: 15vw;\n\t\t}\n\t\t/* tablet */\n\t\t@media screen and (min-width : 760px) and (max-width : 1220px) {\n\t\t    font-size: 15vw;\n\t\t}\n\t\t/* desktop */\n\t\t@media screen and (min-width : 1220px) {\n\t\t    font-size: 200px;\n\t\t}\n\t}\n\n}\n.sp-mask-video {\n\tposition: absolute;\n\ttop: 50%;\n\tleft: 0%;\n\ttransform: translateY(-50%);\n\n\twidth: 100%;;\n\theight: auto;\n\toverflow: hidden;\n\n\tmask-image: url('../../media/hoodie-silhoutte.png');\n\tmask-repeat: no-repeat;\n\tmask-position: 50% 50%;\n\tmask-size: contain;\n}",
+			"file": "src/styles/mask-logo.scss",
+			"file_size": 956,
+			"file_write_time": 131433966870608523,
+			"settings":
+			{
+				"buffer_size": 903,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 598,
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -235,10 +271,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 191.0,
-		"last_filter": "install",
+		"height": 140.0,
+		"last_filter": "set syntax scss",
 		"selected_items":
 		[
+			[
+				"set syntax scss",
+				"Set Syntax: SCSS"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -312,7 +352,7 @@
 				"Set Syntax: JavaScript (Babel)"
 			]
 		],
-		"width": 440.0
+		"width": 408.0
 	},
 	"console":
 	{
@@ -334,18 +374,18 @@
 	"expanded_folders":
 	[
 		"/C/Users/Decks/Documents/Git Projects/superperspective-site",
-		"/C/Users/Decks/Documents/Git Projects/superperspective-site/public",
 		"/C/Users/Decks/Documents/Git Projects/superperspective-site/src",
 		"/C/Users/Decks/Documents/Git Projects/superperspective-site/src/pages",
-		"/C/Users/Decks/Documents/Git Projects/superperspective-site/src/styles",
-		"/C/Users/Decks/Documents/Git Projects/superperspective-site/src/styles/css"
+		"/C/Users/Decks/Documents/Git Projects/superperspective-site/src/styles"
 	],
 	"file_history":
 	[
+		"/C/Users/Decks/Documents/Git Projects/superperspective-site/superperspective-site-project.sublime-project",
+		"/C/Users/Decks/Documents/Git Projects/superperspective-site/src/styles/css/mask-logo.css",
+		"/C/Users/Decks/Documents/Git Projects/superperspective-site/src/styles/css/splash.css",
 		"/C/Users/Decks/Documents/Git Projects/superperspective-site/package.json",
 		"/C/Users/Decks/Documents/Git Projects/superperspective-site/src/styles/splash.css",
 		"/C/Users/Decks/Documents/Git Projects/superperspective-site/src/styles/shared.scss",
-		"/C/Users/Decks/Documents/Git Projects/superperspective-site/superperspective-site-project.sublime-project",
 		"/C/Users/Decks/Documents/Git Projects/superperspective-site/node_modules/normalize.css/normalize.css",
 		"/C/Users/Decks/Documents/Git Projects/SuperPerspective/SuperPerspective/Assets/Scripts/UI/Saved_UI.cs",
 		"/C/Users/Decks/Documents/Git Projects/elementten2017/src/Components/Navigation.js",
@@ -467,9 +507,7 @@
 		"/C/Users/Decks/Documents/Git Projects/UnityDoodles/Ball Physics/.gitignore",
 		"/C/Users/Decks/Documents/Git Projects/UnityDoodles/UnityDoodles.sublime-project",
 		"/C/Users/Decks/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
-		"/C/Users/Decks/AppData/Local/Temp/Rar$DIa0.404/README.txt",
-		"/C/Users/Decks/Documents/Git Projects/SuperPerspective/SuperPerspective/Assets/Scripts/Objects/heart-and-soul",
-		"/C/Users/Decks/Documents/Git Projects/SuperPerspective/SuperPerspective/Assets/Scripts/Objects/MobilePlatform.cs"
+		"/C/Users/Decks/AppData/Local/Temp/Rar$DIa0.404/README.txt"
 	],
 	"find":
 	{
@@ -493,6 +531,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"sp-mask-logo--video",
 			"50vw",
 			"mask",
 			"960",
@@ -619,8 +658,7 @@
 			"hover",
 			"100",
 			"0",
-			"10",
-			"100"
+			"10"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -628,6 +666,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"sp-mask-video",
 			"et-navigation",
 			"262833",
 			"e2be51",
@@ -672,135 +711,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "src/styles/splash.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 319,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								319,
-								319
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "src/pages/Splash.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1241,
+						"buffer_size": 631,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								819,
-								819
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/styles/mask-logo.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 765,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								729,
-								729
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 66.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/C/Users/Decks/Downloads/aahvocado-superperspective-web-b740f4cd1a77/src/client/app/components/Header.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1966,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1224,
-								1208
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 198.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "src/index.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 232,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								232,
-								231
+								406,
+								393
 							]
 						],
 						"settings":
@@ -812,6 +735,324 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6352,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										219,
+										238
+									],
+									[
+										521,
+										540
+									],
+									[
+										714,
+										733
+									],
+									[
+										911,
+										930
+									],
+									[
+										1151,
+										1170
+									],
+									[
+										1423,
+										1442
+									],
+									[
+										1663,
+										1682
+									],
+									[
+										1935,
+										1954
+									],
+									[
+										2175,
+										2194
+									],
+									[
+										2447,
+										2466
+									],
+									[
+										2687,
+										2706
+									],
+									[
+										2959,
+										2978
+									],
+									[
+										3199,
+										3218
+									],
+									[
+										3471,
+										3490
+									],
+									[
+										3711,
+										3730
+									],
+									[
+										3983,
+										4002
+									],
+									[
+										4223,
+										4242
+									],
+									[
+										4495,
+										4514
+									],
+									[
+										4735,
+										4754
+									],
+									[
+										5007,
+										5026
+									],
+									[
+										5247,
+										5266
+									],
+									[
+										5519,
+										5538
+									],
+									[
+										5759,
+										5778
+									],
+									[
+										6031,
+										6050
+									],
+									[
+										6271,
+										6290
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								5842,
+								5842
+							]
+						],
+						"settings":
+						{
+							"default_dir": "C:\\Users\\Decks\\Documents\\Git Projects\\superperspective-site",
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 11,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 4620.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "superperspective-site-project.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 106,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								98,
+								98
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/styles/splash.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 389,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								166,
+								166
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/styles/mask-logo.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 903,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								635,
+								635
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 66.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "package.json",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 598,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								598,
+								598
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/Decks/Downloads/aahvocado-superperspective-web-b740f4cd1a77/src/client/app/components/Header.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1966,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								488,
+								488
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 330.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 232,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								231,
+								231
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
