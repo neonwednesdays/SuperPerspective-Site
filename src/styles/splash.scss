@@ -10,6 +10,13 @@
 
 	position: relative;
 	overflow: hidden;
+
+	.sp-mask-logo {
+		z-index: 3;
+	}
+	.sp-mask-logo--video {
+		z-index: 2;
+	}
 }
 
 .sp-splash--logo {

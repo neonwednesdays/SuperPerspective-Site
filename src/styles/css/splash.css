@@ -6,6 +6,10 @@
   border: 20px solid white;
   position: relative;
   overflow: hidden; }
+  .sp-splash .sp-mask-logo {
+    z-index: 3; }
+  .sp-splash .sp-mask-logo--video {
+    z-index: 2; }
 
 .sp-splash--logo {
   font-size: 3rem;
