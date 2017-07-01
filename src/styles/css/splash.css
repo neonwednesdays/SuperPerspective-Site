@@ -2,12 +2,14 @@
   height: 100vh;
   width: 100vw;
   box-sizing: border-box;
-  background-color: lightblue;
-  border: 20px solid white; }
+  background-color: transparent;
+  border: 20px solid white;
+  position: relative;
+  overflow: hidden; }
 
 .sp-splash--logo {
   font-size: 3rem;
   font-family: "Raleway";
   font-weight: bold;
-  color: #e2b969;
+  color: white;
   text-align: center; }

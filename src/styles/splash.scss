@@ -5,8 +5,11 @@
 	width: 100vw;
 	box-sizing: border-box;
 
-	background-color: lightblue;
+	background-color: transparent;
 	border: 20px solid white;
+
+	position: relative;
+	overflow: hidden;
 }
 
 .sp-splash--logo {

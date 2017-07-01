@@ -1,0 +1,43 @@
+.sp-mask-logo {
+	width: 100%;
+    height: 100%;
+    position:absolute;
+
+	.sp-mask-logo--container {
+		fill: white;
+	    -webkit-mask: url(#mask);
+	    mask: url(#mask);
+	}
+	.sp-mask-logo--bg {
+		fill: rgba(255, 255, 255, 1);
+	}
+	.sp-mask-logo--text {
+		text-anchor: middle;
+	    font-family: "Raleway";
+	    font-weight: bold;
+
+	    /* phone */
+		@media screen and (min-width : 0) and (max-width : 760px) {
+		    font-size: 15vw;
+		}
+		/* tablet */
+		@media screen and (min-width : 760px) and (max-width : 1220px) {
+		    font-size: 15vw;
+		}
+		/* desktop */
+		@media screen and (min-width : 1220px) {
+		    font-size: 200px;
+		}
+	}
+
+}
+.sp-mask-logo--video {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+
+	z-index: -1;
+	overflow: hidden;
+}
