@@ -10,7 +10,7 @@ export default class GetButton extends Component {
 				className="sp-button sp-get-button"
 				onClick={ this.handleOnClick }
 			>
-				Get it On Steam
+				<i className="fa fa-steam-square" aria-hidden="true" />
 			</button>
 		);
 	}
