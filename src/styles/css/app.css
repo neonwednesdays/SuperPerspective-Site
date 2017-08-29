@@ -4,12 +4,22 @@
   left: 50%;
   transform: translate(-50%, 0);
   z-index: 5;
-  position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center; }
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 1rem; }
 
-.sp-app .sp-notice {
+.sp-app .sp-h2 {
   color: #586c86;
+  font-size: 1rem;
+  font-family: raleway;
+  text-align: center; }
+
+.sp-app .sp-content--big-n-bold {
+  color: #586c86;
+  font-size: 2rem;
+  font-width: bold;
   font-family: raleway;
   text-align: center; }

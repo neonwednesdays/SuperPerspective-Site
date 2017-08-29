@@ -12,8 +12,15 @@ render() {
 	return (
 	<div className="sp-app">
 		<div className="sp-app--content">
-			<div className="sp-notice">Coming Soon</div>
+
+			<h2 className="sp-h2">by</h2>
+			<p className="sp-content--big-n-bold">The Dashing Crate</p>
+
+			<br/>
+
+			<h2 className="sp-h2">Coming Soon</h2>
 			<GetButton />
+
 		</div>
 		<Splash />
 	</div>

@@ -11,10 +11,24 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+
+		width: 100%;
+		height: auto;
+		padding: 1rem;
 	}
 
-	.sp-notice {
+	.sp-h2 {
 		color: $sp-color;
+		font-size: 1rem;
+
+		font-family: raleway;
+		text-align: center;
+	}
+
+	.sp-content--big-n-bold {
+		color: $sp-color;
+		font-size: 2rem;
+		font-width: bold;
 
 		font-family: raleway;
 		text-align: center;
