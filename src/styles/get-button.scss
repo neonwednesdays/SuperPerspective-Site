@@ -1,12 +1,6 @@
 .sp-app .sp-get-button {
-	position: absolute;
-	top: 80vh;
-	left: 50%;
-	transform: translate(-50%, 0);
-
-	&:hover {
-		transform: translate(-50%, -5px);
-	}
+	width: 80px;
+	background: transparent;
 }
 .sp-get-button {
 	font-size: 3rem;

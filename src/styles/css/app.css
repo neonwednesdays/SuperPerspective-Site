@@ -1,3 +1,15 @@
 .sp-app .sp-app--content {
+  position: absolute;
+  top: 80vh;
+  left: 50%;
+  transform: translate(-50%, 0);
   z-index: 5;
-  position: relative; }
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.sp-app .sp-notice {
+  color: #586c86;
+  font-family: raleway;
+  text-align: center; }

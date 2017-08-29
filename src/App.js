@@ -12,6 +12,7 @@ render() {
 	return (
 	<div className="sp-app">
 		<div className="sp-app--content">
+			<div className="sp-notice">Coming Soon</div>
 			<GetButton />
 		</div>
 		<Splash />
