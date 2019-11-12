@@ -13,6 +13,25 @@ function randomPrefix() {
 	return prefixList[randomIdx];
 }
 
+const DevItem = (props) => {
+	const hasLink = props.link !== undefined;
+
+	return (
+		<li className='dev-item'>
+			{ hasLink &&
+				<a className='contact-link' href={props.link}>
+					<span style={{marginRight: 5}}>{`${randomPrefix()} ${props.name}`}</span>
+					<i className="fa fa-link"/>
+				</a>
+			}
+
+			{ !hasLink &&
+				<span>{`${randomPrefix()} ${props.name}`}</span>
+			}
+		</li>
+	)
+}
+
 class App extends Component {
 	render() {
 		return (
@@ -35,16 +54,11 @@ class App extends Component {
 					<div className='sp-app--dev-container'>
 						<h2 style={{fontSize: 14}}>Developed by</h2>
 						<ul className='dev-list'>
-							<li className='dev-item'>{`${randomPrefix()} Nick Shooter`}</li>
-							<li className='dev-item'>{`${randomPrefix()} Larry Smith`}</li>
-							<li className='dev-item'>{`${randomPrefix()} Peter Aquila`}</li>
-							<li className='dev-item'>{`${randomPrefix()} Arend Peter Castelein`}</li>
-							<li className='dev-item'>
-								<a className='contact-link' href='mailto:dan.dan.makes.stuff@gmail.com'>
-									<span style={{marginRight: 5}}>{`${randomPrefix()} Daniel Xiao`}</span>
-									<i className="fa fa-envelope"/>
-								</a>
-							</li>
+							<DevItem name='Nick Shooter' link='http://nickshooter.weebly.com/'/>
+							<DevItem name='Larry Smith'/>
+							<DevItem name='Peter Aquila' link='http://www.peteraquila.com'/>
+							<DevItem name='Arend Peter Castelein'/>
+							<DevItem name='Daniel Xiao' link='http://www.elementten.com'/>
 						</ul>
 					</div>
 				</div>
