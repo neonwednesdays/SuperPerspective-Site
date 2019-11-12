@@ -36,6 +36,25 @@
 	}
 }
 
+.sp-app--footer {
+  padding: 9px;
+	padding-top: 14px;
+	color: $sp-darkgreen;
+	background-color: $sp-lightgreen;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	font-family: Arimo;
+	font-size: 14px;
+}
+
+.contact-link {
+	color: $sp-darkgreen;
+	text-decoration: none;
+}
+
 .sp-app--get-container {
 	font-family: sans-serif;
 	display: flex;

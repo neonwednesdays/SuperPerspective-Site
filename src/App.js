@@ -19,8 +19,7 @@ class App extends Component {
 			<div className="sp-app">
 				{/* header */}
 				<div className='sp-app--header'>
-					<div className=''
-					style={{fontSize: 21, fontWeight: 'bold'}}>The Dashing Crate</div>
+					<div style={{fontSize: 21, fontWeight: 'bold'}}>The Dashing Crate</div>
 					<div style={{fontSize: 14}}>presents</div>
 				</div>
 
@@ -40,9 +39,18 @@ class App extends Component {
 							<li className='dev-item'>{`${randomPrefix()} Larry Smith`}</li>
 							<li className='dev-item'>{`${randomPrefix()} Peter Aquila`}</li>
 							<li className='dev-item'>{`${randomPrefix()} Arend Peter Castelein`}</li>
-							<li className='dev-item'>{`${randomPrefix()} Daniel Xiao`}</li>
+							<li className='dev-item'>
+								<a className='contact-link' href='mailto:dan.dan.makes.stuff@gmail.com'>
+									<span style={{marginRight: 5}}>{`${randomPrefix()} Daniel Xiao`}</span>
+									<i className="fa fa-envelope"/>
+								</a>
+							</li>
 						</ul>
 					</div>
+				</div>
+
+				{/* footer */}
+				<div className='sp-app--footer'>
 				</div>
 			</div>
 		);
