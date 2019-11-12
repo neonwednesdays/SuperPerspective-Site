@@ -24,7 +24,6 @@ class App extends Component {
 				{/* rest of the page */}
 				<div className='sp-app--info'>
 					<div className='sp-app--get-container'>
-						<h2 style={{fontSize: 25}}>FREE on Steam!</h2>
 						<GetButton />
 					</div>
 				</div>

@@ -1,11 +1,21 @@
-.sp-app .sp-get-button {
-	width: 80px;
-	background: transparent;
-}
-.sp-get-button {
-	font-size: 3rem;
+@import './shared.scss';
 
-	.fa:before {
-		font-size: 5rem;
-	}
+.sp-get-button {
+  padding: 5px 7px;
+	font-size: 20px;
+  border-radius: 5px;
+
+	background: $sp-shadow-lightgreen;
+  border: 2px solid $sp-shadow-darkgreen;
+  border-bottom-width: 7px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.sp-get-button .fa:before {
+  margin-left: 5px;
+	font-size: 40px;
 }

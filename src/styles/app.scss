@@ -1,10 +1,7 @@
 @import './shared.scss';
 
 .sp-app {
-	font-family: raleway;
-	color: $sp-color;
 	min-height: 100vh;
-
 	display: flex;
 	flex-direction: column;
 }
@@ -20,7 +17,7 @@
 	align-items: center;
 
 	@include phone {
-		border-color: #aee2b7;
+		border-color: $sp-shadow-darkgreen;
 	}
 
 	font-family: Arimo;
@@ -40,14 +37,9 @@
 }
 
 .sp-app--get-container {
-	position: absolute;
-	bottom: 20px;
-	right: 20px;
-
-	transform: rotate(-10deg);
-
+	font-family: sans-serif;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 }

@@ -10,6 +10,7 @@ export default class GetButton extends Component {
 				className="sp-button sp-get-button"
 				href="https://store.steampowered.com/app/629420/Super_Perspective/"
 			>
+				<span>Free on Steam!</span>
 				<i
 					className="fa fa-steam-square"
 					aria-hidden="true"
