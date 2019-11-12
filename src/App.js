@@ -18,7 +18,7 @@ render() {
 
 			<br/>
 
-			<h2 className="sp-h2">Coming Soon</h2>
+			<h2 className="sp-h2">Get it Free on Steam!</h2>
 			<GetButton />
 
 		</div>

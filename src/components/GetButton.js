@@ -6,16 +6,12 @@ import '../styles/css/get-button.css';
 export default class GetButton extends Component {
 	render() {
 		return (
-			<button
+			<a
 				className="sp-button sp-get-button"
-				onClick={ this.handleOnClick }
+				href="https://store.steampowered.com/app/629420/Super_Perspective/"
 			>
 				<i className="fa fa-steam-square" aria-hidden="true" />
-			</button>
+			</a>
 		);
-	}
-
-	handleOnClick = () => {
-		// coming soon
 	}
 }
