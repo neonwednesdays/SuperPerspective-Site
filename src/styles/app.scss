@@ -4,11 +4,11 @@
 	font-family: raleway;
 	color: $sp-color;
 
-	.sp-app--info-container {
-		position: absolute;
-		top: 20px;
-		left: 50%;
-    transform: translate(-50%);
+	.sp-app--header {
+    padding: 9px;
+		background-color: $sp-lightgreen;
+		color: $sp-darkgreen;
+		border-bottom: 5px solid $sp-shadow-lightgreen;
 
 		display: flex;
 		flex-direction: column;

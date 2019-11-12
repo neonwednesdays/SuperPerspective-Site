@@ -11,9 +11,13 @@ class App extends Component {
 	render() {
 		return (
 			<div className="sp-app">
-				{/* credits */}
-				<div className='sp-app--info-container'>
-					<div style={{fontSize: 21}}>The Dashing Crate</div>
+				{/* header */}
+				<div className='sp-app--header'>
+					<div className=''
+					style={{
+						fontSize: 21,
+						fontWeight: 'bold',
+					}}>The Dashing Crate</div>
 					<div style={{fontSize: 14}}>presents</div>
 				</div>
 

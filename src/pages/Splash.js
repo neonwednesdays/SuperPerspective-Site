@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import '../styles/css/splash.css';
-import '../styles/css/mask-logo.css';
 
 export default class App extends Component {
 	render() {
