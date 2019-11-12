@@ -8,24 +8,27 @@ import Splash from './pages/Splash';
 import GetButton from './components/GetButton';
 
 class App extends Component {
-render() {
-	return (
-	<div className="sp-app">
-		<div className="sp-app--content">
+	render() {
+		return (
+			<div className="sp-app">
+				{/* credits */}
+				<div className='sp-app--info-container'>
+					<div style={{fontSize: 21}}>The Dashing Crate</div>
+					<div style={{fontSize: 14}}>presents</div>
+				</div>
 
-			<h2 className="sp-h2">by</h2>
-			<p className="sp-content--big-n-bold">The Dashing Crate</p>
+				{/* link */}
+				<div className='sp-app--get-container'>
+					<h2 style={{fontSize: 25}}>FREE on Steam!</h2>
+					<GetButton />
+				</div>
 
-			<br/>
+				{/* animatic */}
+				<Splash />
 
-			<h2 className="sp-h2">Get it Free on Steam!</h2>
-			<GetButton />
-
-		</div>
-		<Splash />
-	</div>
-	);
-}
+			</div>
+		);
+	}
 }
 
 export default App;

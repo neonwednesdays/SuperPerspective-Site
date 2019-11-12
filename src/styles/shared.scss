@@ -2,3 +2,19 @@ $sp-color: #586c86; // text color
 
 $sp-yellow: #e2b969; // logo yellow
 $sp-lightgreen: #cde8d7; // light green
+
+@mixin phone {
+  @media (max-width: 320px) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media (max-width: 640px) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media (min-width: 640px) {
+    @content;
+  }
+}
