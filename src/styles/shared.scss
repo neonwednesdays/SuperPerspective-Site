@@ -2,10 +2,10 @@ $sp-color: #586c86; // text color
 
 $sp-yellow: #e2b969; // logo yellow
 
-$sp-lightgreen: #cdfdd5; // light green
-$sp-shadow-lightgreen: #afe0af;
+$sp-lightgreen: #d5ffdc; // light green
+$sp-shadow-lightgreen: #e6ffe6;
 
-$sp-darkgreen: #4d6b52; // contrast lightgreen
+$sp-darkgreen: #7bca88; // contrast lightgreen
 
 // -- breakpoints
 @mixin phone {
@@ -14,12 +14,12 @@ $sp-darkgreen: #4d6b52; // contrast lightgreen
   }
 }
 @mixin phone-and-tablet {
-  @media (min-width: 1025px) {
+  @media (max-width: 1024px) {
     @content;
   }
 }
 @mixin tablet {
-  @media (max-width: 1024px) {
+  @media (min-width: 376px) and (max-width: 1024px) {
     @content;
   }
 }

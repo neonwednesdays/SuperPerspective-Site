@@ -14,22 +14,20 @@ class App extends Component {
 				{/* header */}
 				<div className='sp-app--header'>
 					<div className=''
-					style={{
-						fontSize: 21,
-						fontWeight: 'bold',
-					}}>The Dashing Crate</div>
+					style={{fontSize: 21, fontWeight: 'bold'}}>The Dashing Crate</div>
 					<div style={{fontSize: 14}}>presents</div>
-				</div>
-
-				{/* link */}
-				<div className='sp-app--get-container'>
-					<h2 style={{fontSize: 25}}>FREE on Steam!</h2>
-					<GetButton />
 				</div>
 
 				{/* animatic */}
 				<Splash />
 
+				{/* rest of the page */}
+				<div className='sp-app--info'>
+					<div className='sp-app--get-container'>
+						<h2 style={{fontSize: 25}}>FREE on Steam!</h2>
+						<GetButton />
+					</div>
+				</div>
 			</div>
 		);
 	}

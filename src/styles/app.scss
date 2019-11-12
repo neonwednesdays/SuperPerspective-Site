@@ -3,19 +3,39 @@
 .sp-app {
 	font-family: raleway;
 	color: $sp-color;
+	min-height: 100vh;
+
+	display: flex;
+	flex-direction: column;
 }
 
 .sp-app--header {
   padding: 9px;
-	background-color: $sp-lightgreen;
 	color: $sp-darkgreen;
-	border-bottom: 5px solid $sp-shadow-lightgreen;
+	background-color: $sp-lightgreen;
+	border-bottom: 10px solid $sp-shadow-lightgreen;
 
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 
 	@include phone {
+		border-color: #aee2b7;
+	}
+
+	font-family: Arimo;
+}
+
+.sp-app--info {
+  padding: 9px;
+	color: $sp-darkgreen;
+	background-color: $sp-lightgreen;
+	border-top: 10px solid $sp-shadow-lightgreen;
+
+	flex: 1 1 auto;
+
+	@include phone {
+		border-color: #aee2b7;
 	}
 }
 
