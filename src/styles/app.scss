@@ -3,29 +3,31 @@
 .sp-app {
 	font-family: raleway;
 	color: $sp-color;
+}
 
-	.sp-app--header {
-    padding: 9px;
-		background-color: $sp-lightgreen;
-		color: $sp-darkgreen;
-		border-bottom: 5px solid $sp-shadow-lightgreen;
+.sp-app--header {
+  padding: 9px;
+	background-color: $sp-lightgreen;
+	color: $sp-darkgreen;
+	border-bottom: 5px solid $sp-shadow-lightgreen;
 
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	@include phone {
 	}
+}
 
-	.sp-app--get-container {
-		position: absolute;
-		bottom: 20px;
-		right: 20px;
+.sp-app--get-container {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
 
-		transform: rotate(-10deg);
+	transform: rotate(-10deg);
 
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }

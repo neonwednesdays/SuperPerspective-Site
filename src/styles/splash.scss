@@ -2,7 +2,7 @@
 
 .sp-splash {
 	@include phone {
-		height: 300px;
+		height: (100vw / 1.825);
 		border: 5px solid white;
 		background-color: white;
 	}
